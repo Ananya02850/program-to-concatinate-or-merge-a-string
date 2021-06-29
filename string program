@@ -6,7 +6,10 @@ int main()
     char str[40], str2[30];
     puts("enter any string: ");
     gets(str);
-    strcpy(str2, str);
-    puts(str2);
+    puts("enter any string2: ");
+        gets(str2);
+
+    strcat(str, str2);
+    puts(str);
     return 0;
 }
